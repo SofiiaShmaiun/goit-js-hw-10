@@ -22,7 +22,7 @@ function createInfoMarkup(countryName) {
     </div>
     <p class="info-item">Capital: ${country.capital}</p>
     <p class="info-item">Population: ${country.population}</p>
-    <p class="info-item">Language: ${Object.values(country.languages)}</p>`;
+    <p class="info-item">Language: ${Object.values(country.languages).join(', ')}</p>`;
   }
 }
 
